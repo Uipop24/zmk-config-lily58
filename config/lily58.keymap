@@ -67,6 +67,8 @@
 &kp LSHFT         &kp Z   &kp X   &kp C     &kp V     &kp B          &kp MINUS    &kp GRAVE  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
                                   &kp LALT  &kp LGUI  &kp BACKSLASH  &kp SPACE    &kp RET    &kp EQUAL  &mo 1   &mo 2
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         lower_layer {
