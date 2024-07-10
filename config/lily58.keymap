@@ -82,7 +82,7 @@
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                   &trans  &trans    &kp UP_ARROW    &trans     &kp DEL  &kp BACKSPACE
 &trans        &trans        &trans        &trans        &trans        &trans                                   &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans   &trans
 &trans        &trans        &trans        &trans        &trans        &trans  &out OUT_TOG    &kp PRINTSCREEN  &trans  &trans    &trans          &trans     &trans   &trans
-                                          &trans        &trans        &trans  &trans          &trans           &trans  &trans    &trans
+                                          &kp A         &trans        &trans  &trans          &trans           &trans  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
